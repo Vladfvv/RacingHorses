@@ -11,39 +11,11 @@ namespace RacingHorses
 {
     public class Horse : INotifyPropertyChanged
     {
-        // private DispatcherTimer _timer;
-        // private Random _random;
 
-        //private Point startPoint;
-        //  private Point endPoint;
         private double x;
         private double y;
         private double speed;
 
-        //public Point StartPoint
-        //{
-        //    get { return startPoint; }
-        //    set
-        //    {
-        //        if (startPoint != value)
-        //        {
-        //            startPoint = value;
-        //            OnPropertyChanged("StartPoint");
-        //        }
-        //    }
-        //}
-        //public Point EndPoint
-        //{
-        //    get { return endPoint; }
-        //    set
-        //    {
-        //        if (endPoint != value)
-        //        {
-        //            endPoint = value;
-        //            OnPropertyChanged("EndPoint");
-        //        }
-        //    }
-        //}
 
         public double X
         {

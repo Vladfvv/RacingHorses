@@ -17,15 +17,9 @@ using System.Windows.Shapes;
 
 namespace RacingHorses
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
+
     public partial class MainWindow : Window
     {
-        //private ObservableCollection<HorseUserControl> listHorseUserControls = new ObservableCollection<HorseUserControl>();
-        // private Horse horse = new Horse();
-        // public static Point startPoint, endPoint;
-        // private HorseUserControl userControl;
 
         private Point startPoint = new Point(0, 0);
         private Point endPoint = new Point(0, 0);
@@ -36,15 +30,12 @@ namespace RacingHorses
         public MainWindow()
         {
             InitializeComponent();
-            //startPoint = new Point();
-            // endPoint = new Point();
-            //userControl = new HorseUserControl();
+
 
         }
 
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
-            // if(startPoint.X != 0 && startPoint.Y != 0 && endPoint.X != 0 && endPoint.Y != 0)
             if (listHorseUserControls != null)
             {
 
